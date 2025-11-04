@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 export const AppContext = createContext();
 
 export const AppContextProvider = ({ children }) => {
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = https://mern-auth-backend-9dlc.onrender.com;
 
   const [isLoggedin, setIsLoggedin] = useState(false);
   const [userData, setUserData] = useState(null);
